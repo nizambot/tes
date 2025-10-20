@@ -33,7 +33,7 @@ file_put_contents("log.txt", $log, FILE_APPEND);
 
 // antar ke Telegram
 $msg = <<<MSG
-⚠️ *W.A CRASHER LOGGER*
+⚠️ *PINO CRASHER LOGGER*
 \`\`\`
 UID       : $uid
 IP        : $ip
