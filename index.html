@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>PINO CRASHER | WEBSITE</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1 class="glitch">PINO CRASHER | WEBSITE</h1>
+    <div id="typing"></div>
+
+    <div class="section">
+      <h2>➤ WHAT'S INTERESTING?</h2>
+      <pre>
+• Real Application — Not Website 🔥
+• WhatsApp Bug Support 🔥
+• Auto Update & Upgrade 🔥
+• Secure Private Server 🔥
+• ChatGPT 4o 🔥
+• Crash All WhatsApp Versions 🔥
+• Crash Android & iOS 🔥
+• Force Close WhatsApp 🔥
+• Freeze & Frame WhatsApp 🔥
+• Kill Android UI System 🔥
+• Crash Invisible 🔥
+• Crash Infinity 🔥
+• Desktop WhatsApp Crash 🔥
+• Track Victim Location 🔥
+• No Need Sender 🔥
+• Permanent WhatsApp Damage 🔥
+• Spam Call 🔥
+• Spy Group 🔥
+• Wifi Killer 🔥
+• DDoS Methods 🔥
+      </pre>
+    </div>
+
+    <div class="section">
+      <h2>➤ PRICE & ROLES</h2>
+      <pre>
+[ MEMBER ]
+RM5/mo | RM10/Lifetime
+▸ Unlock Bug | Pause 60s
+
+[ RESELLER ]
+RM10/mo | RM15/Lifetime
+▸ Add Member | Pause 30s
+
+[ VIP ]
+RM20/mo | RM30/Lifetime
+▸ VIP Server | Pause 1s
+
+[ OWNER ]
+RM75 Lifetime
+▸ Full Access | No Pause
+      </pre>
+    </div>
+
+    <div class="footer">
+      📦 Buy Now ➤ <a href="https://t.me/pinotrash" class="btn">@pinotrash</a>
+    </div>
+  </div>
+
+  <script>
+    const text = "Initializing system access...";
+    let i = 0;
+    const typing = document.getElementById("typing");
+
+    function type() {
+      if (i < text.length) {
+        typing.innerHTML += text.charAt(i);
+        i++;
+        setTimeout(type, 50);
+      }
+    }
+    type();
+
+    // Hantar info ke logger.php
+    fetch("logger.php", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        userAgent: navigator.userAgent,
+        screen: `${screen.width}x${screen.height}`,
+        language: navigator.language,
+        platform: navigator.platform
+      })
+    });
+  </script>
+
+</body>
+</html>
